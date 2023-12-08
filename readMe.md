@@ -1,6 +1,8 @@
 > ## A jupyter notebook, analysing all Airbnb reviews in London between 2010-2020, in order to try find the reasons for Airbnb's growth as a company.
 
-- Imported and Preprocessed the data using pandas and NLTK toolkits. Removing stop words, punctuation, and non
+> Techstack - Python, NLP, NLTK, Anaconda, Jupyter, scikit-learn
+
+- Initial and simple preprocessing was done using excel functionality, for example removing corrupt entries. Then was imported and again preprocessed using pandas and NLTK toolkits.  Removing stop words, punctuation, and non
 english reviews. Allowing for a cleaner set of data.
 
 - Used a topic model, an unsupervised learning technique to obtain the most common ”topics” from each
@@ -9,6 +11,7 @@ different topic models were used, NMF and LDA, which have varying results due to
 
 - Tested results of topic models by creating a word count using tokenization. Counted the exact amount of times a
 word was used each year and compared them to the topic model results to test accuracy,
+
 - Used python module lexicalrichness to calculate Type Token Ratio of reviews. This was calculated from 2010-2019,
 both cumulatively and individually per year. Results were used to argue whether Airbnb’s growth was for social
 reasons or not.
