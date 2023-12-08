@@ -15,3 +15,5 @@ reasons or not.
 
 - All topic models, word counts, and type token ratios were graphically shown using tools such as PrettyTable and
 matplotlib, making the Jupyter Notebook more clear and readable.
+
+[The most up to date data can be found here](http://insideairbnb.com/get-the-data/)
